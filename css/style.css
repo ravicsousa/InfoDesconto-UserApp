@@ -27,3 +27,26 @@ html {
     max-height:100%;
     padding-top: 50px;
 }
+
+#form{
+    padding-top: 50px;
+}
+
+.form-control{
+    border-radius: 0px;
+    height: 50px;
+    background-color: #b2ceff;
+    color: white;
+}
+
+.form-control::-webkit-input-placeholder { color: white; }
+.form-control:-moz-placeholder { color: white; }
+.form-control::-moz-placeholder { color: white; }
+.form-control:-ms-input-placeholder { color: white; }
+
+.btn-default{
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
