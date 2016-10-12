@@ -70,3 +70,19 @@ html {
     border: 1px solid;
     border-color: white
 }
+
+.btn-tp{
+    background-color: white;
+    color: #5eb7dd;
+    width: 100%;
+    height: 76px;
+    border-radius: 10px;
+}
+
+.fa-search{
+    font-size: auto;
+}
+
+#pd-top{
+    padding-top: 35px;
+}
