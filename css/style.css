@@ -85,7 +85,7 @@ html {
 }
 
 .fa{
-    font-size: xx-large
+    font-size: xx-large;
 }
 
 #pd-top{
@@ -97,4 +97,29 @@ label{
     font-weight: normal;
     font-size: 15px;
     padding-top: 10px;
+}
+
+.btn-produto{
+    background-color: darkred;
+    max-width: 100%;
+    color: white;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 22px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-size: 18px;
+    text-align: left;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
 }
