@@ -1,0 +1,336 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    font-size: 20px;
+    background-color: white;
+
+}
+.navbar-default .navbar-nav>li>a{
+    color: black;
+    /* gambiarra para não aumentar a autura da nav quando der hover num item \o/ */
+    border-bottom: 3px solid white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    border-bottom: 3px solid red;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: white;
+    border-bottom: 3px solid red;
+    color: red;
+}
+
+.navbar-brand {
+  float: left;
+  height: 0px;
+  padding-top: 8px;
+  line-height: 0px;
+}
+
+#logo-nav{
+    padding-bottom: 10px;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 15px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+header h1{
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 2.0px #000000;
+-webkit-text-fill-color: #FFFFFF
+
+}
+.carousel-caption {
+      margin:0 auto;
+      margin-bottom: 200px;
+      text-align:center;
+}
+.somos-section {
+    background: white;
+    color: black;
+    height: auto;
+}
+
+.somos-section p{
+    padding-bottom: 15px;
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.somos-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.fotografos-section {
+    background: red;
+    color: white;
+    height: auto;
+}
+
+.fotografos-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.entenda-section {
+    background: white;
+    height: auto;
+}
+
+.entenda-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+
+.contact-section {
+    background-color: darkblue;
+    color: white;
+    height: auto;
+}
+
+.contact-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.contact-section h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#gmap_canvas{
+    color: black;
+    padding-bottom: 20px;
+}
+
+#pd{padding-bottom: 20px}
+
+#owl-demo{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+#img-circle{
+  margin: 26px;
+
+}
+#owl-demo .item img{
+  display: block;
+  width: 225px;
+  height: 240px;
+}
+
+.galeria-section{
+    background-color: #09459f;
+}
+.galeria-section h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+/* jssor slider arrow navigator skin 05 css */
+        /*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        */
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+        /* jssor slider thumbnail navigator skin 01 css */
+        /*
+        .jssort01-99-66 .p            (normal)
+        .jssort01-99-66 .p:hover      (normal mouseover)
+        .jssort01-99-66 .p.pav        (active)
+        .jssort01-99-66 .p.pdn        (mousedown)
+        */
+        .jssort01-99-66 .p {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 99px;
+            height: 66px;
+        }
+
+        .jssort01-99-66 .t {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .jssort01-99-66 .w {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .jssort01-99-66 .c {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 95px;
+            height: 62px;
+            border: #000 2px solid;
+            box-sizing: content-box;
+            background: url('img/t01.png') -800px -800px no-repeat;
+            _background: none;
+        }
+
+        .jssort01-99-66 .pav .c {
+            top: 2px;
+            _top: 0px;
+            left: 2px;
+            _left: 0px;
+            width: 95px;
+            height: 62px;
+            border: #000 0px solid;
+            _border: #fff 2px solid;
+            background-position: 50% 50%;
+        }
+
+        .jssort01-99-66 .p:hover .c {
+            top: 0px;
+            left: 0px;
+            width: 97px;
+            height: 64px;
+            border: #fff 1px solid;
+            background-position: 50% 50%;
+        }
+
+        .jssort01-99-66 .p.pdn .c {
+            background-position: 50% 50%;
+            width: 95px;
+            height: 62px;
+            border: #000 2px solid;
+        }
+
+        * html .jssort01-99-66 .c, * html .jssort01-99-66 .pdn .c, * html .jssort01-99-66 .pav .c {
+            /* ie quirks mode adjust */
+            width /**/: 99px;
+            height /**/: 66px;
+        }
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background-color: dimgray;
+}
+footer span.copyright {
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+  color: white;
+  font-weight: bold;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: white;
+    color: blue;
+}
