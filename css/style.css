@@ -79,6 +79,11 @@ html {
     border-radius: 10px;
 }
 
+.btn-tp:hover, .btn-tp:focus, .btn-tp:active{
+    background-color: #5eb7dd;
+    color: white;
+}
+
 .fa{
     font-size: xx-large
 }
