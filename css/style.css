@@ -79,10 +79,17 @@ html {
     border-radius: 10px;
 }
 
-.fa-search{
-    font-size: auto;
+.fa{
+    font-size: xx-large
 }
 
 #pd-top{
     padding-top: 35px;
+}
+
+label{
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 10px;
 }
